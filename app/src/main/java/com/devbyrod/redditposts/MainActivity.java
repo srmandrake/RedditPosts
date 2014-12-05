@@ -72,6 +72,8 @@ public class MainActivity extends ActionBarActivity implements MainFragment.OnFr
 
             MenuItem menuItem = menu.findItem(R.id.action_search);
             SearchView searchView = (SearchView) menuItem.getActionView();
+            searchView.setQuery( Constants.INITIAL_SEARCH_CRITERIA, false );
+            searchView.clearFocus();
 
             searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
         }
