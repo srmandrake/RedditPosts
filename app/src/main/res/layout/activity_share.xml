@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.devbyrod.redditposts.ShareActivity"
+    android:background="#cc000000">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#ff3e3e3e"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Share This!"
+            android:id="@+id/textView"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:textColor="#ff2b95ff" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff2b95ff"></LinearLayout>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:id="@+id/btnEmail"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#ff7e7e7e"
+            android:textColor="#ffffff"
+            android:layout_marginTop="5dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:textSize="18dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="SMS"
+            android:id="@+id/btnSms"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#ff7e7e7e"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+</FrameLayout>

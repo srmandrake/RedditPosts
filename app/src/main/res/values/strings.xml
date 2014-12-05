@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Reddit Posts</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_bar_search">funny</string>
+    <string name="action_bar_search_hint">Search...</string>
+    <string name="title_activity_searchable">SearchableActivity</string>
+    <string name="title_activity_share"></string>
+    <string name="title_post_share">Sharing from Reddit Posts App</string>
+
+</resources>
