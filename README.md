@@ -1,0 +1,5 @@
+RedditPosts
+===========
+Project gets posts from Reddit and shows them in a list
+Posts are sharable via Email or SMS
+
